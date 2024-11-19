@@ -18,7 +18,7 @@ class UserServices:
             self.repository.save_user(user=user)
             print("Usuário cadastrado com sucesso!")
         except TypeError as error:
-            print(f"Erro ao salvar o usuário: {error}")
+            print(f"Erro ao cadastrar usuário: {error}")
         except Exception as error:
             print(f"Ocorreu um erro inesperado: {error}")
 
